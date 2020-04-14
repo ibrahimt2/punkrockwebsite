@@ -231,9 +231,7 @@
     margin: 5px 5px 5px 5px;
 }
 
-p.footerRight {
 
-}
 
 .footerCenter {
     grid-column: 2;
@@ -241,3 +239,19 @@ p.footerRight {
     line-height: 200%;
 }
 
+
+
+.mainArticleAuthor {
+    border: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: gainsboro;
+
+}
+
+.mainArticleAuthor p {
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
