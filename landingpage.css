@@ -136,7 +136,7 @@
 
   .mainArticleCenter h2 {
     font-family: 'Zilla Slab', serif;
-    font-size: larger;
+    font-size: x-large;
     color: black;
 
   }
@@ -145,6 +145,13 @@
     font-family: 'Zilla Slab', serif;
     font-size: medium;
     color: black;
+  }
+
+  .mainArticleCenter h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black;
+    font-weight: bold;
   }
 
   .timelineElement {
