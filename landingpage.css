@@ -1,0 +1,209 @@
+.navBarItem {
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.topNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3%%;
+    text-align: center;
+    display: grid;
+    /*The number of repitions below should match the number of items in the navBar*/
+    grid-template-columns: repeat(3, 1fr); 
+    background-color: white;
+    z-index:1000;
+
+}
+
+.mainSlideShowContainer {
+    padding-top: 2%;
+    position: relative
+}
+
+.mainSlidesContainer {
+    position: relative;
+}
+
+.mainSlides {
+    width: 100%;
+    display: block;
+}
+
+.mainSlidesOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    border-radius: 30%;
+    transition: 0.6s ease;
+    text-align: center;
+    z-index: 30;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .overlayText {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      display: grid;
+      grid-template-rows: 2fr 1fr; 
+      width: 50%;
+      height: 10%;
+      z-index: 3;   
+  }
+
+  .overlayHeading {
+    font-family: 'Abril Fatface', cursive;
+    font-size: xxx-large;
+    color: white;
+    text-align: right;
+    user-select: none;
+  }
+
+  .overlaySubtext {
+    top: 20%;
+    right: 10%;
+    font-family: 'Zilla Slab', serif;
+    font-size: medium;
+    color: white;
+    text-align: right;
+    opacity: 0;
+    user-select: none;
+    transition: 1s ease-out;
+    
+  }
+
+  .overlayText:hover .overlaySubtext{
+      opacity: 1;
+      z-index: 20;
+      transition: 1s ease-out;
+      
+  }
+
+  .mainArticleContainer {
+      display: grid;
+      grid-template-columns: 1fr 6fr 3fr;
+  }
+
+  .mainArticleCenter {
+      margin-top: 10%;
+  }
+
+  .mainArticleContainer h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: xxx-large;
+    color: black;
+    line-height: 110%;
+    
+  }
+
+  .mainArticleCenter h2 {
+    font-family: 'Zilla Slab', serif;
+    font-size: larger;
+    color: black;
+
+  }
+
+  .mainArticleCenter p {
+    font-family: 'Zilla Slab', serif;
+    font-size: medium;
+    color: black;
+  }
+
+  .timelineElement {
+      border: solid;
+      border-width: 3px;
+      border-color: black;
+      border-radius: 10px;
+      
+  }
+
+  .timelineElement:hover .timelineSubheading {
+    max-height: 400px;
+}
+
+  .timelineHeading {
+    font-family: 'Abril Fatface', cursive;
+      border-radius: 10% 10% 0 0;
+      margin: 5% 5% 5% 5%;
+      
+      
+
+  }
+
+  .timelineSubheading {
+      font-family: 'Zilla Slab', serif;
+      transition: 1s ease-in-out;
+      overflow: hidden;
+      max-height: 0;
+      border-radius: 0 0 10% 10%;
+      margin: 0 5% 0 5%;
+  }
+
+  .timelineContainer {
+      margin: 30% 30% 30% 30%;
+  }
+
+  .timelineConnecter {
+      display: grid;
+      grid-template-columns: 1fr 5px 1fr;
+      min-height:
+  }
+
+  .blackConnecter {
+      background-color: black;
+      min-height: 40px;
+  }
+
+  .mainArticleCenter p a:link {
+    font-family: 'Zilla Slab', serif;
+    font-size: medium;
+    color: #0645AD
+  }
+
+  .mainArticleCenter p a:visited {
+    font-family: 'Zilla Slab', serif;
+    font-size: medium;
+    color: #0B0080
+  }
+
+
+
