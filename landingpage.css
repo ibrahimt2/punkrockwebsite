@@ -265,3 +265,48 @@
     font-size: small;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .mainArticleLeft { 
+    }
+
+    .mainArticleRight {
+        display: none;
+    }
+
+    .mainArticleContainer {
+        grid-template-columns: 5fr 200fr 5fr;
+        align-items: center;
+    }
+
+    .navBarItem {
+        font-size: large;
+    }
+
+    .button {
+        font-size: large;
+    }
+
+    .overlayHeading {
+        font-size: large;
+    }
+
+    .overlaySubtext {
+        font-size: small;
+    }
+
+    .mainArticleContainer h1 {
+        font-size: x-large;
+    }
+
+    .mainArticleCenter h2 {
+        font-size: large;
+    }
+
+    .footer {
+        font-size: large;
+    }
+}
+
+
