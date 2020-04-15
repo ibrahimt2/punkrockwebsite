@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .navBarItem {
     display: inline-block;
     text-align: center;
